@@ -65,7 +65,7 @@ h2 {
 .container {
   display: flex;
   flex-wrap: wrap;/* Allows items to wrap onto new lines */
-  justify-content: right; /* change from right*/
+ /* justify-content: right; /* change from right*/
  text-align: center;
   background-color: tan;
   color: saddlebrown;
@@ -77,19 +77,19 @@ h2 {
   background-color: tan;
   color: saddlebrown;
   right: 100%;
-  top: 15%;
-  width: 70vw;
-  height: 80vh; /* Full viewport height */
+  top: 10%;
+  width: 60vw; /* was 70% top was 15% */
+  height: 70vh; /* Full viewport height was 100% */
   over-flow: scroll; /* Enable vertical scrolling */
   scroll-behavior: smooth; /* Smooth scrolling */
 }
 footer {
   background-color: tan;
   color: saddlebrown;
-  margin: 0;
-  padding: 0;
+  margin-bottom: 0;
+  padding: 10px auto 10px auto;
   text-align: center;
-  font-size: 3em;
+  font-size: 1.8em;
   line-height: 1.2em;   
   background-image: radial-gradient(ivory,
                                 tan,  saddlebrown);
