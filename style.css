@@ -77,13 +77,13 @@ h2 {
   background-color: tan;
   color: saddlebrown;
   right: 100%;
-  top: 10%;
+  top: 5%;
   width: 60vw; /* was 70% top was 15% */
   height: 70vh; /* Full viewport height was 100% */
   over-flow: scroll; /* Enable vertical scrolling */
   scroll-behavior: smooth; /* Smooth scrolling */
 }
-footer {
+footer { 
   background-color: tan;
   color: saddlebrown;
   margin: 0;
