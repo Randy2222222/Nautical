@@ -29,15 +29,7 @@ header h1 {
 h2 {
   backgroud-color: tan;
   color: saddlebrown;
-  padding: 20px auto 20px auto;
-}
-
-  p {
-
-  margin-border: 1px solid black;
-  background-color: tan;
-  font-size: .7em;
-  color: saddlebrown;
+  padding: 20px auto 20px;
 }
 .container {
   display: flex;
@@ -46,14 +38,9 @@ h2 {
   text-align: center;
   background-color: tan;
   color: saddlebrown;
-  background-image: radial-gradient(ivory
-                                tan, saddlebrown);
+
 }
-  p {
-  background-color: tan;
-  font-size: .7em;
-  color: saddlebrown;
-}
+
   
 
 
