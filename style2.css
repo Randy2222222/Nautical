@@ -12,13 +12,9 @@ html, body {
 header {
   background-color: tan;
   color: saddlebrown;
-  text-align: center;
   padding: 0.3em 0;      /* thin height */
-  text-size: 3em;
-  margin: 0;
   line-height: 1.2em;        /* tighten blue bar */
-  background-image: radial-gradient(ivory,
-                                tan,  saddlebrown);
+
 }
 
 header h1 {
