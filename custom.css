@@ -42,7 +42,12 @@ h2 {
   padding: 20px 20px 20px 20px;
   background-image: radial-gradient(ivory,
                                 tan,  saddlebrown);
-
+ p { 
+   text-align: center;
+   color: saddlebrown;
+   font-size: 10px;
+ }
+  
 footer {
   background-color: tan;
   color: saddlebrown;
