@@ -27,9 +27,11 @@ header h1 {
 }
 
 h2 {
-  backgroud-color: black;
-  color: tan;
+  backgroud-color: ivory;
+  color: saddlebrown;
   padding: 20px auto 20px auto;
+  background-image: radial-gradient(ivory,
+                                tan,  saddlebrown);
 }
 .container {
   display: flex;
@@ -38,12 +40,13 @@ h2 {
   text-align: center;
   background-color: ivory;
   color: saddlebrown;
-  background-image: radial-gradient(ivory,
-                                tan,  saddlebrown);
+  
 
 }
 
 .scroll-container {
+  background-color: ivory;
+  color: saddlebrown;
   width: 70vw;
   height: 80vh; /* Full viewport height */
   over-flow: scroll; /* Enable vertical scrolling */
