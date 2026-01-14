@@ -64,13 +64,13 @@ footer {
   flex: 1;
 }
 
-.left-column {
+#left-column {
   width: 30%;
   padding: 1rem;
   background-color: ivory;
 }
 
-.right-column {
+#right-column {
   width: 70%;
   padding: 1rem;
   background-color: ivory;
