@@ -4,7 +4,7 @@ html, body {
   padding: 0;
   background-color: tan;
   color: saddlebrown;
-  font-family: Comic Sans, Arial, sans-serif;
+  font-family: Arial, sans-serif;
  /* text-align: center;*/
 }
 
@@ -36,8 +36,8 @@ header h1 {
 
 h2 {
   backgroud-color: tan;
-  text-size: 3em;
-  font-weight: bold;
+  text-size: 3.5em;
+  font-weight: 800;
   color: saddlebrown;
   margin: 0px auto 10px auto;
   padding: 10px auto 10px auto;
@@ -57,13 +57,15 @@ h3 {
 }
 
 
-p {
+ p {
   background-color: tan;
   color: saddlebrown;
-  text-size: .7em;
+  text-weight: bold;
+  text-size: 1.2em;
   text-align: center;
   line-height: 50%;
 }
+
 /*  .container {
     position: left;
     margin-right: 75%;
