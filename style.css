@@ -35,7 +35,8 @@ header h1 {
 h2 {
   backgroud-color: tan;
   color: saddlebrown;
-  padding: 20px auto 20px auto;
+  margin: 0px auto 5px auto;
+  padding: 0px auto 10px auto;
   background-image: radial-gradient(ivory,
                                 tan,  saddlebrown);
 }
@@ -77,7 +78,7 @@ h2 {
   background-color: tan;
   color: saddlebrown;
   right: 100%;
-  top: 5%;
+  top: 0%;
   width: 60vw; /* was 70% top was 15% */
   height: 70vh; /* Full viewport height was 100% */
   over-flow-y: auto; /* Enable vertical scrolling | over-flow-y scroll |*/
