@@ -13,8 +13,9 @@ header {
   background-color: tan;
   color: saddlebrown;
   text-align: center;
-  padding: 0.3em 0;     
-  margin: 0; 
+  text-size: 3em;
+  padding: 10px autp 10px auto;
+  margin: 10px auto 10px auto;
   background-image: radial-gradient(ivory,
                                 tan,  saddlebrown);
 }
@@ -98,7 +99,7 @@ footer {
   margin: 0px auto 0px auto;
   padding: 0px auto 0px auto;
   text-align: center;
-  border: 2px solid saddlebrown;
+  border: 2px solid tan;
   font-size: 2.0em;
   background-image: radial-gradient(ivory,
                                 tan,  saddlebrown);
