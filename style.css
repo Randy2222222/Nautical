@@ -14,6 +14,7 @@ header {
   color: saddlebrown;
   text-align: center;
   text-size: 3.0em;
+  border: 2px solid tan;
   padding: 10px autp 10px auto;
   margin: 10px auto 10px auto;
   background-image: radial-gradient(ivory,
