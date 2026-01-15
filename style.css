@@ -24,11 +24,11 @@ header {
 header h1 {
   background-color: tan;
   color: saddlebrown;
-  margin: 0;
-  padding: 0;
+  margin: 10px auto 10px auto;
+  padding: 10px auto 10px auto;
   text-align: center;
-  font-size: 3em;
-  line-height: 1.2em;   
+  font-size: 3em; 
+  border: 2px solid tan;
   background-image: radial-gradient(ivory,
                                 tan,  saddlebrown);
 }
