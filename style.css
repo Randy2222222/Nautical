@@ -105,7 +105,7 @@ h3 {
   top: 0%;
   width: 60vw; /* was 70% top was 15% */
   height: 80vh; /* Full viewport height was 100% */
-  over-flow-y: scroll;/* Enable vertical scrolling | over-flow-y scroll |*/
+  overflow-y: scroll;/* Enable vertical scrolling | over-flow-y scroll |*/
   scroll-behavior: smooth; /* Smooth scrolling */
   border-right: 2px solid saddlebrown;
   border-left: 2px solid saddlebrown;
