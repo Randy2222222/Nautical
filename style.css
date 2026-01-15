@@ -80,14 +80,14 @@ h2 {
   top: 5%;
   width: 60vw; /* was 70% top was 15% */
   height: 70vh; /* Full viewport height was 100% */
-  over-flow: scroll; /* Enable vertical scrolling */
+  over-flow-y: auto; /* Enable vertical scrolling | over-flow-y scroll |*/
   scroll-behavior: smooth; /* Smooth scrolling */
 }
 footer { 
   background-color: tan;
   color: saddlebrown;
-  margin: 0;
-  padding: 10px auto 10px auto;
+  margin: 10px auto 0px auto;
+  padding: 10px auto 0 auto;
   text-align: center;
   font-size: 1.0em;
   background-image: radial-gradient(ivory,
