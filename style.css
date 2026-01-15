@@ -67,30 +67,29 @@ h3 {
   line-height: 50%;
 }
 
-/*  .container {
+    .container {
     display: flex;
-    jusrify content: left;
+    justify-content: left;
     text-align: center;
     margin-right: 75%;
     margin-left: 0%;
     background-color: ivory;
-    color: saddkebrown;
+    color: saddlebrown;
 }
 
      .sidebar{
     top: 0%;
-    left: 0;
+    left: 0%;
     width: 40%vw;
-    height: 100%vh;
+    height: 80%vh;
     background-image: radial-gradient(ivory,
                                 tan,  saddlebrown);
   
-  } */
+  } 
     
 /* Scroll Container doesn't scrooll but does make box */
 .container {
   display: flex;
-  flex-grow: 3;
   flex-wrap: wrap;/* Allows items to wrap onto new lines */
   justify-content: right; /* change from right*/
   text-align: center;
