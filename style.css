@@ -56,7 +56,15 @@ h3 {
   background-image: radial-gradient(ivory,
                                 tan,  saddlebrown);
 }
-
+#locator {
+  position: absolute;
+  visibility: visible;
+  left: 20px;
+  top: 350px;
+  z-index: 200px;
+}
+  
+  
 
  p {
   background-color: tan;
