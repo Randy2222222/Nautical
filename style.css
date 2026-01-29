@@ -42,8 +42,8 @@ header h1 {
 }
 
 .gallery img {
-    width: 30%;
-    margin: 1%;
+    width: 50%;
+    margin: 50%;
     cursor: pointer;
 }
 
@@ -76,7 +76,7 @@ h3 {
   font-weight: bold;
   font-size: .5em;
   text-align: center;
-  line-height: 50%;
+ /* line-height: 50%; */
 }
 
     
@@ -110,7 +110,7 @@ h3 {
   width: 160px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
-  top: 80px; /* Stay at the top */
+  top: 100px; /* Stay at the top */
   left: 0;
   background-color: #111; /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
