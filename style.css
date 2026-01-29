@@ -68,9 +68,10 @@ h2 {
 
 h3 {
   background-color: tan;
+  position: fixed;
   font-size: 2em;
   color: saddlebrown;
-  margin: 0px auto 10px auto;
+  margin-bottom: 0px;
   padding: 10px auto 10px auto;
   background-image: radial-gradient(ivory,
                                 tan,  saddlebrown);
@@ -154,10 +155,10 @@ h3 {
 }
 
 
-/*footer { 
+footer { 
   background-color: tan;
   color: saddlebrown;
-  margin-bottom: 500px;
+  margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
   padding: 10px auto 10px auto;
@@ -167,4 +168,4 @@ h3 {
   background-image: radial-gradient(ivory,
                                 tan,  saddlebrown);
 }
-*/
+
