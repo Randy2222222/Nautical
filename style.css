@@ -80,11 +80,11 @@ h3 {
 }
 
     
-/* Scroll Container doesn't scrooll but does make box */
+/* Scroll Container doesn't scrooll but does make box 
 .container {
   display: flex;
-  flex-wrap: wrap;/* Allows items to wrap onto new lines */
-  justify-content: right; /* change from right*/
+  flex-wrap: wrap;/* Allows items to wrap onto new lines 
+  justify-content: right; /* change from right
   text-align: center;
   background-color: tan;
   color: saddlebrown;
@@ -95,13 +95,57 @@ h3 {
   color: saddlebrown;
   right: 100%;
   top: 0%;
-  width: 60vw; /* was 70% top was 15% */
-  height: 80vh; /* Full viewport height was 100% */
-  overflow-y: scroll;/* Enable vertical scrolling | over-flow-y scroll |*/
-  scroll-behavior: smooth; /* Smooth scrolling */
+  width: 60vw; /* was 70% top was 15% 
+  height: 80vh; /* Full viewport height was 100%
+  overflow-y: scroll;/* Enable vertical scrolling | over-flow-y scroll |
+  scroll-behavior: smooth; /* Smooth scrolling 
   border-right: 2px solid saddlebrown;
   border-left: 2px solid saddlebrown;
+} */
+/* Side Nav */
+
+/* The sidebar menu */
+.sidenav {
+ height: auto; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 30px; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
 }
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Style page content */
+.main {
+  margin-right: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+  font-size: 28px;
+  width: 40%;
+  height: 80%;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
 
 footer { 
   background-color: tan;
