@@ -48,7 +48,7 @@ header h1 {
 
 .gallery img {
     width: 30%;
-    margin: 1%;
+    margin-right: 0px;
     cursor: pointer;
 }
 
@@ -142,7 +142,7 @@ h3 {
   padding: 0px 10px;
   font-size: 28px;
   width: 40%;
-  height: 80%;
+  height: 100%; */ 80% */
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
