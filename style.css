@@ -72,7 +72,7 @@ h3 {
   font-size: 2em;
   color: saddlebrown;
   margin-bottom: 0px;
-  padding: 10px auto 10px auto;
+  padding: 20px auto 20px auto;
   background-image: radial-gradient(ivory,
                                 tan,  saddlebrown);
 }
@@ -157,11 +157,12 @@ h3 {
 
 footer { 
   background-color: tan;
+  position: fixed;
   color: saddlebrown;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
-  padding: 10px auto 10px auto;
+  padding: 20px auto 20px auto;
   text-align: center;
   border: 2px solid saddlebrown;
   font-size: 2.0em;
