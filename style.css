@@ -50,7 +50,7 @@ header h1 {
 
 h2 {
   background-color: tan;
-  font-size: 3em;
+  font-size: 1em;
   font-weight: 800;
   color: saddlebrown;
   margin: 0px auto 10px auto;
@@ -74,7 +74,7 @@ h3 {
   background-color: tan;
   color: saddlebrown;
   font-weight: bold;
-  font-size: 1.8em;
+  font-size: .5em;
   text-align: center;
   line-height: 50%;
 }
@@ -110,7 +110,7 @@ h3 {
   width: 160px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
-  top: 30px; /* Stay at the top */
+  top: 80px; /* Stay at the top */
   left: 0;
   background-color: #111; /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
